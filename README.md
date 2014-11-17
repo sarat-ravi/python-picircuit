@@ -45,7 +45,7 @@ def main(args):
     lcd = LCD1602(rs_pin=12, rw_pin=18)
     lcd.on()
 
-    # Turns on flashing LED, waits for 10 seconds, and turns off LED
+    # Prints arbitrary text data to LCD
     lcd.text("Hello World!")
     time.sleep(10)
     lcd.text("Good Bye!")
