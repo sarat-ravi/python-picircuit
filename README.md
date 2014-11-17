@@ -28,6 +28,7 @@ def main(args):
     print "done"
 ```
 
+###LCD Display
 This snippet shows come code to write arbitrary text to LCD1602, which is a popular LCD display commonly used with Arduino and Raspberry Pi
 
 ```python
