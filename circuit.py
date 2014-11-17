@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import sys
-from components.led import LED, FlashingLED
+from picircuit.components.led import LED, FlashingLED
 from RPi import GPIO
 
 def setup_board():
