@@ -7,7 +7,6 @@ from multiprocessing import Value
 class LED(Component):
 
     def __init__(self, pin):
-        print "initializing LED on pin {}".format(pin)
         super(LED, self).__init__([pin])
         GPIO.setup(self.pins[0], GPIO.OUT)
 
